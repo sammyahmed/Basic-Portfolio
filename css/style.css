@@ -55,10 +55,25 @@ hr {
 	color: #dddddd;
 }
 
+.container {
+    padding: 2px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    width: 480px;
+}
+
+form {
+	width: 500px;
+	margin-left: 0
+}
+
 #maincontent h1{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-	padding: 10px;
+	font-size: 30px;
+	
 }
 
 #maincontent {
