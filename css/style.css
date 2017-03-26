@@ -1,15 +1,21 @@
 header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #4aaaa5;
+	background-color: white;
     padding: 30px;
-    margin-left: 10%;
     width: 100%;
     text-align: center;
     height: 60px;
 }
 
+#name {
+	color: white;
+	background-color: #4aaaa5;
+}
+
 nav {
-	float:right;
+	color:#bab;
+	float:center;
+	padding: 20px;
 }
 
 section {
