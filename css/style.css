@@ -1,3 +1,4 @@
+/*--header stlying--*/
 header {
     	position:relative;
     	display:block;
@@ -9,7 +10,7 @@ header {
     	color:white;
     	border-bottom: 2px solid #a8a4ad;
 }
-
+/*--Logo styling--*/
 header h1 {
     line-height: 45px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -19,7 +20,7 @@ header h1 {
     margin-left: 20px;
     display:inline;
 }
-
+/*--Nav bar stying--*/
 nav {
     padding-left: 0;
     margin-bottom: 0;
@@ -28,7 +29,6 @@ nav {
     float:right;
     display:inline;
 }
-
 nav  li {
     position:relative;
     display:inline-block;
@@ -37,7 +37,6 @@ nav  li {
     color: #777777;
     padding:0 1rem;
 }
-
 nav li > a {
     position: relative;
     display: block;
@@ -48,31 +47,30 @@ nav > li > a:focus {
     text-decoration: none;
     background-color: #eee;
 }
-
+/*--page body dimensions--*/
 section {
 	width: 960px;
 	height: 500px;
 }
-
+/*-- page underline--*/
 hr {
 	color: #dddddd;
 }
-
+/*--contact form styling--*/
 label {
 	font-size: 20px
 }
-
+/*--contact form boxes--*/
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 10px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 10px;  
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
 }
-
-/* Style the submit button with a specific background color etc */
+/*--contact submit button--*/
 input[type=submit] {
     background-color: #4aaaa5;
     color: white;
@@ -82,24 +80,22 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
-
-/* When moving the mouse over the submit button, add a darker green color */
+/*--mouse hover  --*/
 input[type=submit]:hover {
     background-color: green;
 }
-
-/*background color and some padding around the form */
+/*-- contact container styling --*/
 .container {
     border-radius: 5px;
     padding: 20px;
 }
-
+/*--main content header--*/
 .headingtitle {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-size: 30px;	
 }
-
+/*--contact main div on the left--*/
 #contactcontent {
 	float:left;
 	padding: 25px;
@@ -112,7 +108,7 @@ input[type=submit]:hover {
 	border: 1px solid #eee;
 	border-color: #dddddd
 }
-
+/*--portfolio div on the left--*/
 #portfoliocontent {
 	float:left;
 	padding: 25px;
@@ -125,23 +121,23 @@ input[type=submit]:hover {
 	border: 1px solid #eee;
 	border-color: #dddddd
 }
-
+/*--portfolio div photos--*/
 div.gallery {
     margin: 25px;
     border: 1px solid #ccc;
     float: left;
     width: 40%;
 }
-
+/*--photo hover action--*/
 div.gallery:hover {
     border: 1px solid #777;
 }
-
+/*--portfolio photos dimensions--*/
 div.gallery img {
     width: 100%;
     height: 140px;
 }
-
+/*--photo stext styling--*/
 div.desc {
     padding: 15px;
     text-align: center;
@@ -150,7 +146,7 @@ div.desc {
     color: white;
     background-color: #4aaaa5;
 }
-
+/*--main content div on the left--*/
 #maincontent {
 	float:left;
 	padding: 25px;
@@ -163,7 +159,7 @@ div.desc {
 	border: 1px solid #eee;
 	border-color: #dddddd
 }
-
+/*--side bar div--*/
 #sidebar {
 	width: 185px;
 	height: 130px;
@@ -175,7 +171,6 @@ div.desc {
 	text-align: center;
 	float: right;
 }
-
 footer {
 	background-color: #666666;
 	max-width:100%;
