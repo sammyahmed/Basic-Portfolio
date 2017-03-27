@@ -159,6 +159,10 @@ div.desc {
 	border: 1px solid #eee;
 	border-color: #dddddd
 }
+p {
+	word-spacing: 3px;
+	padding-left: 5px
+}
 /*--side bar div--*/
 #sidebar {
 	width: 185px;
