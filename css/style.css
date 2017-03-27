@@ -8,7 +8,8 @@ header {
     	background:#ffffff;
     	color:white;
     	border-bottom: 2px solid #a8a4ad;
-		}
+}
+
 header h1 {
     line-height: 45px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -17,7 +18,8 @@ header h1 {
     background-color: #4aaaa5;
     margin-left: 20px;
     display:inline;
-		}
+}
+
 nav {
     padding-left: 0;
     margin-bottom: 0;
@@ -35,6 +37,7 @@ nav  li {
     color: #777777;
     padding:0 1rem;
 }
+
 nav li > a {
     position: relative;
     display: block;
@@ -85,17 +88,16 @@ input[type=submit]:hover {
     background-color: green;
 }
 
-/* Add a background color and some padding around the form */
+/*background color and some padding around the form */
 .container {
     border-radius: 5px;
     padding: 20px;
 }
 
-#contactcontent h1{
+.headingtitle {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-	font-size: 30px;
-	
+	font-size: 30px;	
 }
 
 #contactcontent {
@@ -111,11 +113,39 @@ input[type=submit]:hover {
 	border-color: #dddddd
 }
 
-#maincontent h1{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-	font-size: 30px;
-	
+#portfoliocontent {
+	float:left;
+	padding: 25px;
+	width: 530px;
+	height: 760px;
+	color: #777777;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-color: #dddddd
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
 }
 
 #maincontent {
@@ -130,7 +160,6 @@ input[type=submit]:hover {
 	border: 1px solid #eee;
 	border-color: #dddddd
 }
-
 
 #sidebar {
 	width: 185px;
